@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tạo link thiệp theo tên khách</title>
+<link rel="stylesheet" href="style.css">
+<script src="tao-link.js" defer></script>
+</head>
+<body>
+<main class="section link-maker">
+  <p class="eyebrow">Thánh lễ Tạ ơn</p>
+  <h1>Tạo link thiệp theo tên khách</h1>
+  <form id="link-form">
+    <label for="guest-name">Tên khách mời</label>
+    <input id="guest-name" placeholder="Cha Giuse Hùng" maxlength="80" required>
+    <label for="base-url">Đường dẫn thiệp online</label>
+    <input id="base-url" type="url" required placeholder="https://…/thiep-ta-on/">
+    <button type="submit" class="button">Tạo link</button>
+  </form>
+  <div id="link-result" hidden>
+    <label for="guest-link">Link dành riêng cho khách</label>
+    <input id="guest-link" readonly>
+    <div class="actions">
+      <button type="button" class="button" id="copy-link">Sao chép link</button>
+      <a class="button" id="preview-link" target="_blank" rel="noopener">Xem thử thiệp</a>
+    </div>
+  </div>
+  <p id="link-status" role="status"></p>
+</main>
+</body>
+</html>

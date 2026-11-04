@@ -1,0 +1,11 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Thiep Ta On//VI
+BEGIN:VEVENT
+UID:le-truyen-chuc-20261121@thiep-ta-on-khanh
+DTSTAMP:20261104T000000Z
+DTSTART:20261121T010000Z
+SUMMARY:Thánh lễ Truyền chức - Giêrônimô Nguyễn Quang Khánh
+LOCATION:Tòa Giám Mục Thái Bình\, 06 Trần Hưng Đạo
+END:VEVENT
+END:VCALENDAR
